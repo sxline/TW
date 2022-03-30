@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="419eff01-0ab1-4a58-b400-fa9035314e4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tw/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/User/sem.6/TWeb" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\M\PhpstormProjects\TW\tw\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -77,7 +76,9 @@
       <workItem from="1647107534726" duration="1831000" />
       <workItem from="1647109587010" duration="1221000" />
       <workItem from="1647371049155" duration="305000" />
-      <workItem from="1647415898818" duration="2075000" />
+      <workItem from="1647415898818" duration="2689000" />
+      <workItem from="1648625961023" duration="93000" />
+      <workItem from="1648626056916" duration="400000" />
     </task>
     <servers />
   </component>

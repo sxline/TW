@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import './App.css';
+import { LayoutCustom } from './Layouts/LayoutCustom'
+import { Forms } from './Form/Forms';
+import { FooterNow } from './Layouts/FooterFor';
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+    return (
+        <>
+            <LayoutCustom></LayoutCustom>
+            <FooterNow></FooterNow>
+        </>
+    );
 }
 
 export default App;

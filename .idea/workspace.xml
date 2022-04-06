@@ -28,16 +28,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tw/src" />
+    <property name="last_opened_file_path" value="D:/User/sem.6/TWeb" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\M\PhpstormProjects\TW\tw\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\M\PhpstormProjects\TW\tw\src" />
-      <recent name="C:\Users\M\PhpstormProjects\TW\tw\src\Layouts" />
-    </key>
   </component>
   <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -86,8 +80,7 @@
       <workItem from="1648625961023" duration="93000" />
       <workItem from="1648626056916" duration="400000" />
       <workItem from="1648652203726" duration="1351000" />
-      <workItem from="1648658081600" duration="3271000" />
-      <workItem from="1649170136263" duration="14098000" />
+      <workItem from="1648658081600" duration="1580000" />
     </task>
     <servers />
   </component>

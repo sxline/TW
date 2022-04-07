@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419eff01-0ab1-4a58-b400-fa9035314e4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tw/src/Layouts/Card_box.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Form/Forms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Form/Forms.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Form/FormsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Form/FormsStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/ContentLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/ContentLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/FooterFor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/FooterFor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Interface/Student.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/LayoutC.css" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/LayoutC.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +35,45 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tw/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\M\PhpstormProjects\TW\tw\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\M\PhpstormProjects\TW\tw\src" />
+      <recent name="C:\Users\M\PhpstormProjects\TW\tw\src\Layouts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tw/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tw/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,7 +85,17 @@
       <updated>1646938387246</updated>
       <workItem from="1646938389281" duration="7121000" />
       <workItem from="1647032906899" duration="338000" />
-      <workItem from="1647033263532" duration="1018000" />
+      <workItem from="1647033263532" duration="2969000" />
+      <workItem from="1647068586414" duration="1650000" />
+      <workItem from="1647107534726" duration="1831000" />
+      <workItem from="1647109587010" duration="1221000" />
+      <workItem from="1647371049155" duration="305000" />
+      <workItem from="1647415898818" duration="2689000" />
+      <workItem from="1648625961023" duration="93000" />
+      <workItem from="1648626056916" duration="400000" />
+      <workItem from="1648652203726" duration="1351000" />
+      <workItem from="1648658081600" duration="3271000" />
+      <workItem from="1649170136263" duration="11650000" />
     </task>
     <servers />
   </component>

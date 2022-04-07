@@ -6,7 +6,6 @@ import './ContentLayoutC.css';
 export const ContentLayout = ({ title, description}: {title: string, description: string}) => {
     console.log('>>props', title)
 
-    // const {title, description } = props.props
 
     return (
         <>

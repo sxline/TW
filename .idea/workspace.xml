@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419eff01-0ab1-4a58-b400-fa9035314e4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tw/src/Layouts/Card_box.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tw/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tw/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tw/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/Layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Form/Forms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Form/Forms.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Form/FormsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Form/FormsStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/ContentLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/ContentLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/FooterFor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/FooterFor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Interface/Student.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/LayoutC.css" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/LayoutC.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

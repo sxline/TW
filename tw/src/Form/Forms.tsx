@@ -7,10 +7,6 @@ const layout = {
     wrapperCol: { span: 16 },
 };
 
-// const { name, setName} = useState('');
-
-
-/* eslint-disable no-template-curly-in-string */
 const validateMessages = {
     required: '${label} is required!',
     types: {
@@ -21,7 +17,7 @@ const validateMessages = {
         range: '${label} must be between ${min} and ${max}',
     },
 };
-/* eslint-enable no-template-curly-in-string */
+
 
 export const Forms = () => {
     const onFinish = (values: any) => {
@@ -35,10 +31,10 @@ export const Forms = () => {
             <Form.Item name={['user', 'name']} label="Name" rules={[{ required: true }]}>
                 <Input />
             </Form.Item>
-            <Form.Item name={['user', 'email']} label="Surname" rules={[{ type: 'email' }]}>
+            <Form.Item name={['user', 'surname']} label="Surname" rules={[{ required: true }]}>
                 <Input />
             </Form.Item>
-            <Form.Item name={['user', 'age']} label="IQ" rules={[{ type: 'number', min: 0, max: 60 }]}>
+            <Form.Item name={['user', 'iq']} label="IQ" rules={[{required: true, type: 'number', min: 0, max: 60 }]}>
                 <InputNumber />
             </Form.Item>
 

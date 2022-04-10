@@ -42,13 +42,13 @@ const studentsList =  [
         faculty: "CIM",
         group: "NN-191",
         year: 3,
-        averageGrade: 8,
+        averageGrade: 7,
         gender: "Male",
         age: 20,
         iq: 101,
         address: " ",
         phone:" "
-    },
+    }
 ]
 
 function App() {

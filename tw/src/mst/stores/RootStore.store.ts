@@ -1,6 +1,5 @@
-import { applySnapshot, types } from 'mobx-state-tree'
-import { IContentModel } from '../../Interface/interfaces'
-import { ContentModel } from '../models/Content.model'
+import { applySnapshot, types } from "mobx-state-tree";
+import { ContentModel } from "../models/Content.model";
 
 
 const RootStore = types.model('RootStore', {
@@ -43,8 +42,9 @@ const RootStore = types.model('RootStore', {
             })
 
             console.log('>>updatesNotes', updatesNotes)
-
-            //applySnapshot(self.contents_notes, updatesNotes)
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
+            applySnapshot(self.contents_notes, updatesNotes)
 
         }
 

@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419eff01-0ab1-4a58-b400-fa9035314e4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tw/src/Layouts/CardCustom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tw/src/Notes/Notes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Interface/Person.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Interface/Person.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Interface/ex.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Interface/interfaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/Layouts/LayoutCustom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/Layouts/LayoutCustom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/mst/models/Content.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/mst/models/Content.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/mst/stores/RootStore.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/mst/stores/RootStore.store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tw/src/mst/stores/StoreProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tw/src/mst/stores/StoreProvider.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,15 +1,15 @@
-import React, { ReactElement } from 'react'
-import ReactDOM from 'react-dom'
-import 'antd/dist/antd.css'
-import './index.css'
-import App from './App'
-import { IRootStore } from './Interface/interfaces'
-import storeProvider from './mst/stores/StoreProvider'
-import reportWebVitals from './reportWebVitals'
+import React, { ReactElement } from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { IRootStore } from './Interface/Person';
+import storeProvider from './mst/stores/StoreProvider';
 
-const StoreContext = React.createContext<IRootStore | any>(null)
 
-export const useRootStore = () => React.useContext(StoreContext)
+const StoreContext = React.createContext<IRootStore | any>(null);
+
+export const useRootStore = () => React.useContext(StoreContext);
 
 const StoreProvider = ({ children }: { children: ReactElement }) => {
     return (
@@ -26,6 +26,6 @@ ReactDOM.render(
         </StoreProvider>
     </React.StrictMode>,
     document.getElementById('root')
-)
+);
 
-reportWebVitals()
+reportWebVitals();

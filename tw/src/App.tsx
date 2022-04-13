@@ -4,6 +4,8 @@ import { LayoutCustom } from './Layouts/LayoutCustom'
 import { Forms } from './Form/Forms';
 import { FooterNow } from './Layouts/FooterFor';
 import Card_box from "./Layouts/Card_box";
+import { useRootStore } from '.';
+import {Local} from './Layouts/Local'
 
 const studentsList =  [
     {
@@ -57,6 +59,8 @@ function App() {
             <LayoutCustom></LayoutCustom>
             <p className='text1'> Dates about students from interface</p>
             <Card_box Students = {studentsList}/>
+            <p className='text_1'>Data from localStorage</p>
+            <Local/>
             <FooterNow></FooterNow>
         </>
     );

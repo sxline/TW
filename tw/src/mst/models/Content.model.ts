@@ -36,5 +36,4 @@ export const ContentModel = types.model('ContentModel', {
             const rootStore = getParentOfType(self, RootStore)
             rootStore.removeNote(self.id)
         }
-
-    }))
+}))

@@ -29,7 +29,7 @@ export const LayoutCustom = () =>{
         <>
             <Layout className="layout">
                 <Header>
-                    {/*<div className="logo" />*/}
+                    <div className="logo" />
                     <Menu mode="horizontal" defaultSelectedKeys={['2']}>
                         <Menu.Item >{`Home`}</Menu.Item>
                         <Menu.Item >{`Menu`}</Menu.Item>

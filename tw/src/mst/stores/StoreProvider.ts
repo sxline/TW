@@ -1,55 +1,47 @@
-import RootStore from './RootStore.store'
+import RootStore from "./RootStore.store";
 
 const storeProvider = RootStore.create({
-    contents: [
+    contents:[
         {
             id: '1',
-            title: 'Marca',
-            description: 'Introduce-ti textul',
+            title: 'Student name',
+            description: 'Your name: ',
             seen: false,
-            notes: 'First',
+            notes: '',
         },
         {
             id: '2',
-            title: 'Model',
-            description: 'Introduce-ti textul',
+            title: 'Student surname',
+            description: 'Your surname: ',
             seen: false,
             notes: '',
 
         },
         {
             id: '3',
-            title: 'Culoare',
-            description: 'Introduce-ti textul',
+            title: 'Faculty',
+            description: 'Your faculty: ',
             seen: false,
-            notes: '',
+            notes: 'ex:    CIM',
 
         },
         {
             id: '4',
-            title: 'Tara producerii',
-            description: 'Introduce-ti textul',
+            title: 'Group',
+            description: 'Your group: ',
             seen: true,
-            notes: '',
+            notes: 'ex:    CR-191',
 
         },
         {
             id: '5',
-            title: 'Numarul de usi',
-            description: 'Introduce-ti textul',
+            title: 'AverageGrade',
+            description: 'Your grade: ',
             seen: false,
-            notes: '',
+            notes: 'ex:    9 ',
 
-        },
-        {
-            id: '6',
-            title: 'Tipul cutiei de viteze',
-            description: 'Introduce-ti textul',
-            seen: false,
-            notes: '',
-
-        },
+        }
     ]
 })
 
-export default storeProvider
+export default storeProvider;

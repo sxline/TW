@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import { HeaderLayout } from './components/HeaderLayout';
+import {ContentLayout} from './components/Content_layout'
+import { Layout } from 'antd';
+import { card$ } from './mst/stores/Cardbox.store';
+import { useLoginStore } from ".";
+import { LoginForm } from './components/LoginForm';
+import { Footer } from 'antd/lib/layout/layout';
+
+
+
 
 function App() {
+  const loginS = useLoginStore();
+  
+  useEffect(() => {
+    loginS.setInitialStorageContents()
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello. I'm Leanca Maxim, Gr.CR-191
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Link
-        </a>
-      </header>
+      <LoginForm/>
+      <Layout className='layout'>
+      <HeaderLayout/>
+      <ContentLayout/>
+      <Footer style={{ textAlign: 'center' }}>Maxim Leanca CR-191</Footer>
+      </Layout>
     </div>
   );
 }

@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { ILoginStore } from './interface/mainInterface';
+import { loginStore } from './mst/stores/Login.provider';
 
+const LoginContext = React.createContext<ILoginStore | any>(null);
+export const useLoginStore = () => React.useContext(LoginContext);
+
+const LoginProvider = ({ children }: { children: ReactElement }) => {
+  return (
+      <LoginContext.Provider value={ loginStore }>
+          { children }
+      </LoginContext.Provider>
+  )
+}
 ReactDOM.render(
   <React.StrictMode>
+    <LoginProvider>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
+    </LoginProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
